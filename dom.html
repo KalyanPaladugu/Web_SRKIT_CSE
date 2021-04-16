@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> :: Resume ::</title>
+    
+</head>
+<body>
+   
+    <div class="main">
+        <div class="left">
+             <h1>Class selector</h1>
+        </div>
+        <div id="right">
+             <h2>ID Selector</h2>
+        </div>
+        <button onclick="getContent()">Click1</button>
+        <button onclick="getText()">Click2</button>
+    </div>
+
+</body>
+<script>
+   function getContent(){
+      alert(document.getElementById('right').innerHTML)
+    //   alert(document.getElementById('right').innerText)
+    
+   }
+   function getText(){
+       alert(document.getElementsByClassName("left").innerText="ok") 
+    //    alert(document.getElementsByClassName("left").textContent="textContent")
+   }
+</script>
+</html>

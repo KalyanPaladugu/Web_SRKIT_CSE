@@ -1,0 +1,169 @@
+Media queries:
+==============
+
+
+@media only screen and (min-width:600px){
+    
+}
+
+Extra-small devices : max-width:600px
+small devices :min-width:600px and up
+Medium devicea: min-width:768px and up
+Large devices: min-width: 992px and up
+Extra Large devices: min-width:1024px and up
+
+
+Task2:
+=====
+1.JSON
+2.JavaScript intro(ECMA)
+3.DOM & BOM
+4.Selectors (id and class)
+
+Bootstrap classes:
+==================
+
+ margin - m
+ top -    t
+ padding  - p
+ margint-top - mt-*
+ padding-left - pl-*
+ * means states of pixels  (1rem -16px)
+   0 - 0px
+   1 - 0.25rem (4px)
+   2 - 0.5rem   (8px)
+   3-   1rem    (16px)
+   4 -  1.5rem   24px
+   5 -  3rem      48px
+   
+
+
+color codes:
+===========
+ class   -   color
+
+primary  -   blue
+secondary  - lightgray
+info       - skyblue
+warning    - orange
+danger     - red
+success    - green
+light      - lightwhite
+white      - white 
+
+uses - text color ,background(bg), button (btn)
+
+Practice:
+========
+Bootstrap(cards and Model)
+
+
+JavaScript:
+===========
++ JavaScript is object oriented programming language
++ Brendan Eich(NetScape) introduced JS in 1995
++ It is interpreter language
++ He tiedup with ECMA (ES-6)
++ To implement Dynamic Web Pages we use Js
+
+Datatypes:
+==========
++ Number
++ String
++ Boolean
++ Functions
++ Objects
++ Array
++ Null
++ Undefined
+
+
+Alerts:
+=======
++ alert()
++ prompt()
++ confirm()
+console statements:
+===================
++ log()
++ info()
++ war()
++ error()
+
+
+Functions:
+==========
+
++ Function with out parameters
++ Function wit parameters
++ Anonymus Function
++ Arrow Functions
+
+
+Arrays with iterations:
+=======================
++ for-in (To get index of values in array)
++ for-of (To get values in Array)
++ map (ES-6)
+
+Objects:
+========
+
+JSON:
+=====
++ JavaScript Object Notation
++ Easy to write and represent data
++ To store huge amount of Data
++ Represent data in the format of key and value pair
++ To exchange information between the server and application
+
+DOM(Document Object Model):
+===========================
++ We need to implement with in the script tag
++ document
++ navigator
++ window
++ To create website dynamically we will use DOM
+
+DOM functions for document keyword:
+===================================
+
+AJAX call:
+=========
++ XMLHttpRequest()
+
+Promises:
+=========
++ Fetch
++ Cache
+
++ document.createElement('img')
++ document.querySelector('.selector | #selector ')
++ document.querySelectorAll('.selector name')
++ document.getElementsByClassName('classname')
++ document.getElementById('#id name')
+
+Es-6:
+=====
++ let & const
++ Arrow functions
++ Destructuring of Arrays and Object
++ Spread operator and Rest paramters
+
+
+var,let & const:
+=================
++ Scope
+	+ function  (var)
+	+ block     (let & const)
++ Redefine   (var & let)
++ Redeclare  (var)
+
+
++ Spread operators( Array to individual elements or new array)
++ Rest parameters (individual elements to an  array)
+
+
+npx create-react-app myapp
+
+

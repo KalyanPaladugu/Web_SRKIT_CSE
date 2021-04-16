@@ -1,0 +1,33 @@
+{
+    "basics":{
+        "name":"Avinash",
+        "mobile": "+91 994554394",
+        "designation":"Senior Project Manager"
+    },
+    "careerobjective":
+    {
+        "career":"Enhance my skills for the growth of my Organization"
+    },
+    "education":[
+        {
+            "sno":"1",
+            "degree":"B.Tech",
+            "institute":"SRKIT",
+            "YOP":"2023"
+        },
+        {
+            "sno":"2",
+            "degree":"Inter",
+            "institute":"Narayana",
+            "YOP":"2019"
+        },
+        {
+            "sno":"3",
+            "degree":"SSC",
+            "institute":"Sri Chaithanya",
+            "YOP":"2017"
+        }
+    ]
+    
+}
+

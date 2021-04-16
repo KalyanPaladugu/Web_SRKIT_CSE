@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Alerts in js
+        // alert("This is alert")
+        // prompt("This is prompt")
+        // confirm("This is confirm alert")
+
+        // Console Statements
+        // console.log("This is used to display information")
+        // console.info("This is used to display info")
+        // console.warn("This is used for warning")
+        // console.error("This is used to display error")
+         
+function demo(){
+    var sam=document.getElementById("data").textContent;
+   console.log(sam)
+    // document.getElementsByTagName("h2").innerText="OKOK"
+    
+}
+function demo1(){
+    document.querySelector(".demo1").innerHTML="Welcome"
+}
+function demo2(){
+    document.getElementsByTagName("h2").innerHTML="Welcome ff"
+}
+    </script>
+</head>
+<body>
+    <h1 id="data">About SRK College <span>ffg</span></h1>
+    <h2 class="demo1">This class</h2>
+    <button onclick="demo()">Click</button>
+    <button onclick="demo1()">Click1</button>
+    <button onclick="demo2()">Click2</button>
+</body>
+</html>
